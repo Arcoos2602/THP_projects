@@ -1,0 +1,117 @@
+.nav {
+  display:  flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+#page {
+  min-height:100vh; /* 1 */
+	display:flex; /* 2 */
+	flex-direction:column; /* 3 */
+}
+
+.principal {
+  text-align: center;
+  margin-top: 30px;
+  flex-grow: 1;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 200px;
+}
+
+#site-search {
+  align-self: center;
+  margin-top: 30px;
+  width: 600px;
+  height: 30px;
+  border-radius: 20px, black;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#button1 {
+  margin-top: 20px;
+  margin-right: 30px;
+  background-color: #f2f2f2;
+}
+
+#button2 {
+  margin-top: 20px;
+  background-color: #f2f2f2;
+}
+
+.image-centrale {
+  width: 500px;
+	height: 200px;
+}
+
+.gmail {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.images {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.grille {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.connexion {
+  background-color: rgb(30,144,255);
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.link {
+  text-decoration:  none;
+  color:  rgba(0,0,0,0.87);
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.grille-image {
+  width: 17px;
+	height: 17px;
+}
+
+.link-connection {
+  text-decoration: none;
+  color: white;
+}
+
+.link2 {
+  text-decoration: none;
+  color: #5f6368;
+  margin-right: 20px;
+}
+
+.bas {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+}
+
+.droite {
+  justify-content: flex-end;
+  margin-bottom: 5px;
+}
+
+.link2:hover {
+  text-decoration: underline;
+}
